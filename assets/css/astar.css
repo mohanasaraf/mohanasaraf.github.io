@@ -1,0 +1,39 @@
+#canvas {
+  width: 400px;
+  height: 400px;
+  border: 2px solid;
+}
+
+.button-astar {
+  border: none;
+  color: white;
+  /*padding: 8px 12px;*/
+  /*text-align: center;*/
+  /*text-decoration: none;*/
+  margin: 4px 2px;
+}
+
+#end-position-button {
+  background-color: #db5415;
+}
+
+#obstacle-button {
+  background-color: #000000;
+}
+
+#search-path-button {
+  background-color: #3cc10b;
+}
+
+#refresh-button {
+  background-color: #838781;
+}
+
+#start-position-button {
+  background-color: #0000ff;
+}
+
+.row.astar-button-row {
+  margin-bottom: 3%;
+}
+

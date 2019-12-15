@@ -1,0 +1,29 @@
+#angleDisplay1, #angleDisplay2 {
+  padding-top: 20px;
+}
+
+#angleDisplay1 {
+  /*background-color: #f8f8f8;*/
+  background-color: #333333;
+  margin: auto;
+  color: #00ff00;
+  /*height: 100%;*/
+  /*width: 50%;*/
+}
+
+#angleDisplay2 {
+  background-color: #333333;
+  margin: auto;
+  color: #ffff00;
+  /*height: 100%;*/
+  /*width: 50%;*/
+}
+
+.project-page-site-header {
+  margin-bottom: 5%;
+}
+
+.main-content-container {
+  margin-bottom: 7%;
+}
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>KALMAN FILTER</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans:100i,300,400,400i,600,700">
+    <link rel="stylesheet" href="assets/css/2DOF-collision.css">
+    <link rel="stylesheet" href="assets/css/2DOF.css">
+    <link rel="stylesheet" href="assets/css/astar.css">
+    <link rel="stylesheet" href="assets/css/kalman.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="text-center site-header project-page-site-header">
+            <div class="text-center" id="logo">
+                <h1 class="logo"><a id="logo-link" href="#">mohana saraf</a></h1>
+            </div>
+            <div class="text-center" id="top-nav">
+                <nav class="navbar navbar-light navbar-expand-sm">
+                    <div class="container-fluid"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span>MENU</span></button>
+                        <div class="collapse navbar-collapse justify-content-center" id="navcol-1">
+                            <ul class="nav navbar-nav">
+                                <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">WORK</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link" href="About.html">ABOUT</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link" href="#">RESUME</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link">CONTACT</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="row">
+            <div class="col-5 text-center mx-auto">
+                <h2 class="project-heading algo-project-heading">Kalman Filter</h2>
+            </div>
+        </div><div class="row"> 
+    <div class="col text-center "> 
+        <canvas id="kalman_canvas" style="border: 3px solid #bc0710;" width="400px" height="400px" onmousemove ="updatePosition(event)" ></canvas>
+
+    </div>
+</div>
+
+<div class="row kalman-button-row">
+    <div class="col text-center">
+        <button id="pause-button" class="btn btn-primary button-kalman" type="button" value="Pause" onclick="toggleAnimation()">Pause</button>
+    </div>
+</div></div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/math.min.js"></script>
+    <script src="assets/js/kalman.js"></script>
+</body>
+
+</html>

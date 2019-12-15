@@ -1,0 +1,23 @@
+#angleDisplay3 {
+  background-color: #333333;
+  margin: auto;
+  color: #00ff00;
+  padding-top: 35px;
+}
+
+#contact-page-row {
+  padding-top: 10%;
+}
+
+.algo-project-heading {
+  margin-bottom: 3%;
+}
+
+.algo-project-heading-astar {
+  margin-bottom: 1%;
+}
+
+.project-image img {
+  object-fit: fill;
+}
+

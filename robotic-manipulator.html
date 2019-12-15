@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Robotic Manipulator</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans:100i,300,400,400i,600,700">
+    <link rel="stylesheet" href="assets/css/2DOF-collision.css">
+    <link rel="stylesheet" href="assets/css/2DOF.css">
+    <link rel="stylesheet" href="assets/css/astar.css">
+    <link rel="stylesheet" href="assets/css/kalman.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="text-center site-header project-page-site-header">
+            <div class="text-center" id="logo">
+                <h1 class="logo"><a id="logo-link" href="#">mohana saraf</a></h1>
+            </div>
+            <div class="text-center" id="top-nav">
+                <nav class="navbar navbar-light navbar-expand-sm">
+                    <div class="container-fluid"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span>MENU</span></button>
+                        <div class="collapse navbar-collapse justify-content-center" id="navcol-1">
+                            <ul class="nav navbar-nav">
+                                <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">WORK</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link" href="About.html">ABOUT</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link" href="#">RESUME</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link">CONTACT</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    </div>
+    <div id="2DOF">
+        <div class="text-center" id="2DOF-text">
+            <p id="angleDisplay1">Paragraph</p>
+            <p id="angleDisplay2">Paragraph</p>
+        </div>
+    </div>
+    <div class="container main-content-container">
+        <div class="row main-content-start" id="basic-introduction-row">
+            <div class="col-md-5">
+                <h2 class="project-heading">Robotic Manipulator</h2>
+            </div>
+            <div class="col-md-7">
+                <h4 class="project-defintion-heading">A visualization of algorithms involved in Robotics</h4>
+                <p class="type-para">Type | Part of the final year project, Jan 2017</p>
+                <p class="role-para">My Roles | Algorithm Reserach, Comprative Study and JavaScript Development</p>
+                <p class="team-para">Team | Mohana Saraf, Shrey Shah</p>
+            </div>
+        </div>
+        <div class="row definition-row">
+            <div class="col-md-5">
+                <h4 class="project-page-left-heading">Definition</h4>
+            </div>
+            <div class="col-md-7">
+                <h4 class="project-page-right-heading">Understanding the Algorithms</h4>
+                <p class="text-justify text-para">The main idea behind the project was to develop a simple to understand educational source with an aim to simplify the learning process of different algorithms&nbsp;and understanding of complex Math involved. We began with redundant manipulators
+                    as studying manipulators was a good starting point for studying robotics (and autonomous machines) in general. <br></p>
+            </div>
+        </div>
+        <div class="row definition-row">
+            <div class="col-md-5">
+                <h4 class="project-page-left-heading">Robotic Arms</h4>
+            </div>
+            <div class="col-md-7">
+                <h4 class="project-page-right-heading">Understanding of Key terms&nbsp;</h4>
+                <p class="text-justify text-para">Initially designed for heavy, repetitive manufacturing work; they are able to handle tasks that are difficult, dangerous or boring to human beings. Robotic systems are characterized by their degree-of freedom (DOF). A basic Robotic Manipulator
+                    is composed of the set of links connected together by joints and an end effector or a gripper attached to the end of the arm to perform a set of action in the work volume of the robot.<br></p>
+                <h5 class="project-page-right-heading">Degree of Freedom</h5>
+                <p class="text-justify text-para-with-heading">Degrees of Freedom of a robot system is the minimum number of parameters or independent variables required to completely define the configuration of the system. In robotics, degree of freedom is often used to describe the number of directions
+                    that a robot can pivot or move a joint. A very simple robotic system may have two degree-of-freedom, whereas a complex robotic system may have more than two degree-of-freedom (DOF). <br></p>
+                <h5 class="project-page-right-heading">Redundancy</h5>
+                <p class="text-justify text-para-with-heading">If a mechanism has more number of degrees of freedom than are required to perform a certain given task, then the mechanism is called redundant. For example, the human arm can be said to have 7 degrees of freedom whereas it requires only
+                    6 to hold and orient an object at a desired pose, hence the human arm is said to have redundancy. It is because of this redundancy that the human arm is versatile and dexterous. It is capable of carrying out complex manoeuvres such
+                    as those of avoiding obstacles, singularities and operate well within its structural limitations. Redundancy also makes a system more reliable as in the unfortunate case of a joint failure, the system can still perform the primary
+                    task.<br></p>
+                <h5 class="project-page-right-heading">Motion</h5>
+                <p class="text-justify text-para-with-heading">The geometry of the motion of robotic arms is determined with respect to a fixed reference coordinate system. The resulting motion is obtained by composition of the small elementary motions of each link in the arm with respect to the previous
+                    one. In a kinematic analysis the position, orientation, velocity and acceleration of all the links are calculated without taking into consideration the forces that cause this motion. The relationship between motion and the associated
+                    forces and torques is studied in robot dynamics. <br></p>
+                <h5 class="project-page-right-heading">Kinematics</h5>
+                <p class="text-justify text-para-with-heading">Robot kinematics is the study of the motion (kinematics) of robots. It is concerned with aspects of redundancy, collision avoidance and singularity avoidance. It divides itself into two parts Direct or Forward Kinematics and Inverse Kinematics.
+                    In Forward Kinematics, the length of each link and the angle of each joint is known and we have to calculate the position of the end-effector point in the task space of the robot. On the other hand, Inverse Kinematics is opposite of
+                    Forward mapping. It produces the angles required to position the end-effector on a specified point in the task space.<br></p>
+            </div>
+        </div>
+        <div class="row definition-row">
+            <div class="col-md-5">
+                <h4 class="project-page-left-heading">Path Finding</h4>
+            </div>
+            <div class="col-md-7">
+                <h4 class="project-page-right-heading">Implementation of Graph-based method<br>A* Star Algorithm<br></h4>
+                <p class="text-justify text-para">To guide a robot to move from one position to another while minimizing the total number of steps. I have used A* Algorithm for finding a path from a start point to the destination as it combines the advantages of both Dijkstra’s algorithm
+                    and Greedy Best-First-Search. Dijkstra’s algorithm expands outwards in all the direction from the starting point until it reaches the end goal. Whereas, Greedy Best-First-Search keeps a Heuristic estimate of how far the goal node is
+                    from the vertex it is exploring thus selecting a vertex which is closest to the end node at each iteration. It runs much quickly as it uses the Heuristic function to guide its path. <br></p>
+                <p class="text-justify text-para-with-heading">However, when the map has obstacles the path traced out by Greedy Best-First-Search is not optimal. Dijkstra works harder and is guaranteed to find the shortest path whereas Greedy Best-First-Search scans the map quickly and thus is unable
+                    to find the best path. <br></p>
+                <p class="text-justify text-para-with-heading">An interactive and simple implementation of A* Star Algorithm can be found&nbsp;<a href="astar.html">here.</a><br></p>
+            </div>
+        </div>
+        <div class="row definition-row">
+            <div class="col-md-5">
+                <h4 class="project-page-left-heading">Generation of<br>Configuration Space</h4>
+            </div>
+            <div class="col-md-7">
+                <h4 class="project-page-right-heading">Triangle Collision</h4>
+                <p class="text-justify text-para">In the above method, we have reduced the motion planning problem to planning on a graph where the robot can take on various discrete positions which we can generate and connect by edges. But in the real world, most of the robots that are
+                    built can move continuously through its work space. Configuration Space or C-space is a handy mathematical and conceptual tool. Basically, C-space of a robot is set of all configurations that a robot can attain. With no obstacles in
+                    the robot’s operational space, a robot can move freely in its task space. Presence of obstacles make certain configurations in the configuration space unattainable.&nbsp; <br></p>
+                <p class="text-justify text-para-with-heading">The picture below shows one such Configuration Space corresponding to the geometric obstacles in the task space. <br></p>
+                <p class="text-justify text-para-with-heading">Calculation of C-space is done by considering each obstacle and each link of the robot’s arm as set a of connected triangles and we subsequently check for collision between each obstacle’s triangle and each link’s<br>triangle.<br></p>
+            </div>
+        </div>
+        <div class="row definition-row">
+            <div class="col-md-5">
+                <h4 class="project-page-left-heading">Final Result&nbsp;</h4>
+            </div>
+            <div class="col-md-7">
+                <h4 class="project-page-right-heading">Putting it all together</h4>
+                <p class="text-justify text-para">I have modelled the system such that link 1 on the arm can rotate 180 degrees and link 2 can rotate complete 360 degrees.&nbsp;<br></p>
+                <p class="text-justify text-para-with-heading">The generated C-space is passed to the A* star algorithm to check if there exists a set of configurations which will allow the arm to move around and reach from the start to the destination point.&nbsp;<br></p>
+                <p class="text-justify text-para-with-heading">For presentation purpose I have calculated the C-space in advance and fed to the system.<br>You may use my Github link for the original code. &nbsp;<br></p>
+            </div>
+        </div>
+    </div>
+    <div id="2DOF-collision">
+        <div class="text-center" id="2DOF-collision-text">
+            <p id="angleDisplay3">Paragraph</p>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/math.min.js"></script>
+    <script src="assets/js/three.min.js"></script>
+    <script src="assets/js/2D-arm-collison-avoidance-variables-changed.js"></script>
+    <script src="assets/js/2DOF.js"></script>
+</body>
+
+</html>
